@@ -1,0 +1,291 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "沈宇锴的毕业设计"
+			}
+		},
+		{
+			"path": "pages/regist/regist",
+			"style": {
+				"navigationBarTitleText": "注册页面"
+			}
+		},
+		{
+			"path": "pages/mymessage/tmy",
+			"style": {
+				"navigationBarTitleText": "个人信息页"
+			}
+		},
+		{
+			"path": "pages/mymessage/pmy",
+			"style": {
+				"navigationBarTitleText": "个人信息页"
+			}
+		},
+		{
+			"path": "pages/class/tclass",
+			"style": {
+				"navigationBarTitleText": "班级页面"
+				}
+		},
+		{
+			"path": "pages/class/pclass",
+			"style": {
+				"navigationBarTitleText": "学生页面"
+			}
+		},
+		{
+			"path": "pages/class/classlist",
+			"style": {
+				"navigationBarTitleText": "班级管理"
+			}
+		},
+		{
+			"path": "pages/admin/admin",
+			"style": {
+				"navigationBarTitleText": "管理员页面"
+			}
+		},
+		{
+			"path": "pages/student/addstudent",
+			"style": {
+				"navigationBarTitleText": "添加学生"
+			}
+		},
+		{
+			"path": "pages/student/studentlist",
+			"style": {
+				"navigationBarTitleText": "学生管理"
+			}
+		},
+		{
+			"path": "pages/student/studentlist_T",
+			"style": {
+				"navigationBarTitleText": "学生管理"
+			}
+		},
+		{
+			"path": "pages/admin/adminlist",
+			"style": {
+				"navigationBarTitleText": "管理员管理"
+			}
+		},
+		{
+			"path": "pages/class/classadd",
+			"style": {
+				"navigationBarTitleText": "创建班级"
+			}
+		},
+		{
+			"path": "pages/teacher/tcadd",
+			"style": {
+				"navigationBarTitleText": "添加教师"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherlist",
+			"style": {
+				"navigationBarTitleText": "教师管理"
+			}
+		},
+		{
+			"path": "pages/mymessage/cm",
+			"style": {
+				"navigationBarTitleText": "班级管理"
+			}
+		},
+		{
+			"path": "pages/homework/H_T",
+			"style": {
+				"navigationBarTitleText": "作业管理"
+			}
+		},
+		{
+			"path": "pages/homework/Hadd",
+			"style": {
+				"navigationBarTitleText": "发布作业"
+			}
+		},
+		{
+			"path": "pages/notice/N_T",
+			"style": {
+				"navigationBarTitleText": "公告管理"
+			}
+		},
+		{
+			"path": "pages/notice/Nadd",
+			"style": {
+				"navigationBarTitleText": "发布公告"
+			}
+		},
+		{
+			"path": "pages/notice/N_P",
+			"style": {
+				"navigationBarTitleText": "公告页面"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherlist_T",
+			"style": {
+				"navigationBarTitleText": "教师管理"
+			}
+		},
+		{
+			"path": "pages/exam/exam_T",
+			"style": {
+				"navigationBarTitleText": "考试管理"
+			}
+		},
+		{
+			"path": "pages/exam/grade_T",
+			"style": {
+				"navigationBarTitleText": "成绩管理"
+			}
+		},
+		{
+			"path": "pages/exam/Eadd",
+			"style": {
+				"navigationBarTitleText": "添加考试"
+			}
+		},
+		{
+			"path": "pages/exam/Echange",
+			"style": {
+				"navigationBarTitleText": "修改学生成绩"
+			}
+		},
+		{
+			"path": "pages/homework/H_P",
+			"style": {
+				"navigationBarTitleText": "作业页面"
+			}
+		},
+		{
+			"path": "pages/homework/Hback",
+			"style": {
+				"navigationBarTitleText": "作业反馈"
+			}
+		},
+		{
+			"path": "pages/homework/Hchange",
+			"style": {
+				"navigationBarTitleText": "修改作业反馈"
+			}
+		},
+		{
+			"path": "pages/homework/Hlook",
+			"style": {
+				"navigationBarTitleText": "查看作业反馈"
+			}
+		},
+		{
+			"path": "pages/exam/exam_P",
+			"style": {
+				"navigationBarTitleText": "考试页面"
+			}
+		},
+		{
+			"path": "pages/exam/exam_HT",
+			"style": {
+				"navigationBarTitleText": "考试总览"
+			}
+		},
+		{
+			"path": "pages/mymessage/changemy_P",
+			"style": {
+				"navigationBarTitleText": "个人信息管理"
+			}
+		},
+		{
+			"path": "pages/mymessage/changemy_T",
+			"style": {
+				"navigationBarTitleText": "个人信息管理"
+			}
+		},
+		{
+			"path": "pages/class/class_M",
+			"style": {
+				"navigationBarTitleText": "班级信息管理"
+			}
+		},
+		{
+			"path": "pages/class/plist",
+			"style": {
+				"navigationBarTitleText": "家长信息"
+			}
+		},
+		{
+			"path": "pages/admin/Aadd",
+			"style": {
+				"navigationBarTitleText": "添加管理员"
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "无"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#77acf1",
+		"backgroundColor": "#4b778d"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/main/main"
+			},
+			{
+				"pagePath": "pages/class/tclass"
+			},
+			{
+				"pagePath": "pages/class/pclass"
+			},
+			{
+				"pagePath": "pages/mymessage/tmy"
+			},
+			{
+				"pagePath": "pages/mymessage/pmy"
+			}
+		]
+	},
+	"condition": {
+		"current": 1,
+		"list": [{
+				"name": "regist",
+				"path": "pages/regist/regist"
+			},
+			{
+				"name": "stlist",
+				"path": "pages/student/studentlist"
+			},
+			{
+				"name": "classadd",
+				"path": "pages/class/classadd"
+			},{
+				"name": "tlist",
+				"path": "pages/teacher/teacherlist"
+			},
+			{
+				"name": "test",
+				"path": "pages/teacher/tcadd"
+			},
+			{
+				"name": "H_T",
+				"path": "pages/homework/H_T"
+			},
+			{
+				"name": "cm",
+				"path": "pages/class/class_M"
+			}
+		]
+	}
+}
